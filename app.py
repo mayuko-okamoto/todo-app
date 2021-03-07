@@ -95,7 +95,7 @@ def create():
                 image.save(os.path.join(
                     app.config["IMAGE_UPLOADS"], filename))
 
-            print("Image saved")
+            print("Image saved!")
 
         def get_img(id):
             img = Img.query.filter_by(id=id).first()
