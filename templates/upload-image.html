@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<h2 class="m-5">新規追加</h2>
+<!-- 画像送信フォーム -->
+<div class="container">
+    <div class="row">
+      <div class="col">
+  
+        <h1>Upload an image</h1>
+        <hr>
+  
+        <form action="/upload-image" method="POST" enctype="multipart/form-data">
+  
+          <div class="form-group">
+            <label>Select image</label>
+            <div class="custom-file">
+              <input oninput="filesize(this);" type="file" class="custom-file-input" name="image" id="image">
+              <label class="custom-file-label" for="image">Select image...</label>
+            </div>
+          </div>
+  
+          <button type="submit" class="btn btn-primary">Upload</button>
+  
+        </form>
+  
+      </div>
+    </div>
+  </div>
+  <script>
+
+    function filesize(elem){
+      document.cookie = `filesize=${elem.files[0].size}`;
+    }
+  
+  </script>
+<!-- 画像送信フォーム -->
+<form class="m-5" action="/" method='POST'>
+    <div class="form-group pb-3">
+        <label for="title">Title : </label>
+        <input type="text" class="form-control" name="title" aria-describedby="title-help">
+        <small id="title-help" class="form-text text-muted">To doを入力してください。</small>
+    </div>
+    <div class="form-group pb-3">
+        <label for="detail">Detail : </label>
+        <input type="text" class="form-control" name="detail">
+    </div>
+    <div class="form-group pb-3">
+        <label for="due">Due : </label>
+        <input type="date" name="due" required>
+    </div>
+    
+    <a class="btn btn-outline-primary" href="/" role="button">Return</a>
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>
+
+
+{% endblock %}
