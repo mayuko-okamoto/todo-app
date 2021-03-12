@@ -16,3 +16,15 @@ python及びflaskの学習の一環として作成しました。
 ## DEMO
 ### トップページ一覧画面
 ![トップページ](https://user-images.githubusercontent.com/72307312/110881305-7c73f400-8323-11eb-87a9-44970b7c22ed.png)
+
+わかりやすさを重視し、シンプルなデザインにしました。
+
+
+### 新規追加画面
+![新規追加画面](https://user-images.githubusercontent.com/72307312/110881496-cceb5180-8323-11eb-8250-5bfc62e84190.png)
+
+タスクのタイトル、詳細、期限を設定できます。
+
+
+### タスク編集機能
+![編集機能](https://user-images.githubusercontent.com/72307312/110881719-29e70780-8324-11eb-8fa2-1b9b3dca4b2b.mp4)
