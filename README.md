@@ -27,4 +27,11 @@ python及びflaskの学習の一環として作成しました。
 
 
 ### タスク編集機能
-![編集機能](https://user-images.githubusercontent.com/72307312/110881719-29e70780-8324-11eb-8fa2-1b9b3dca4b2b.mp4)
+![編集機能](https://user-images.githubusercontent.com/72307312/110882241-007aab80-8325-11eb-8917-8f93721a8d88.gif)
+
+タスクの内容を編集できます。
+
+
+## 実装予定の内容
+画像アップロード及び表示機能
+OCR機能
