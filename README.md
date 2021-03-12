@@ -15,4 +15,4 @@ python及びflaskの学習の一環として作成しました。
 
 ## DEMO
 ### トップページ一覧画面
-![トップページ](https://gyazo.com/8a3ef6feb8e8eee5631b21d6a0618b8a)
+![トップページ](https://user-images.githubusercontent.com/72307312/110881305-7c73f400-8323-11eb-87a9-44970b7c22ed.png)
