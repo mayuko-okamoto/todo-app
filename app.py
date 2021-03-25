@@ -107,7 +107,7 @@ def create():
     return render_template('upload-image.html')
 
 
-def get_img(id):
+# def get_img(id):
 
 
 @app.route('/detail/<int:id>')
